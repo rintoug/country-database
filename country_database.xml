@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-- phpMyAdmin XML Dump
-- version 5.1.0
-- https://www.phpmyadmin.net
--
-- Host: db
-- Generation Time: May 27, 2021 at 10:18 AM
-- Server version: 5.7.33
-- PHP Version: 7.4.15
--->
 
 <pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
-    <!--
-    - Structure schemas
-    -->
-    <pma:structure_schemas>
-        <pma:database name="spendllyadmin_api" collation="latin1_swedish_ci" charset="latin1">
-            <pma:table name="countries">
-                CREATE TABLE `countries` (
-                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-                  `iso` varchar(2) COLLATE utf8mb4_unicode_ci NOT NULL,
-                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-                  `nicename` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-                  `iso3` varchar(3) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-                  `created_at` timestamp NULL DEFAULT NULL,
-                  `updated_at` timestamp NULL DEFAULT NULL,
-                  PRIMARY KEY (`id`)
-                ) ENGINE=InnoDB AUTO_INCREMENT=240 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-            </pma:table>
-        </pma:database>
-    </pma:structure_schemas>
-
-    <!--
-    - Database: 'spendllyadmin_api'
-    -->
-    <database name="spendllyadmin_api">
+    <database name="country">
         <!-- Table countries -->
         <table name="countries">
             <column name="iso">AF</column>

@@ -1,7 +1,5 @@
 [
-{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"spendllyadmin_api"},
-{"type":"table","name":"countries","database":"spendllyadmin_api","data":
+{"type":"table","name":"countries","database":"countries","data":
 [
 {"iso":"AF","name":"AFGHANISTAN","nicename":"Afghanistan","iso3":"AFG"},
 {"iso":"AL","name":"ALBANIA","nicename":"Albania","iso3":"ALB"},
