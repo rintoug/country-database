@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.0
+- https://www.phpmyadmin.net
+-
+- Host: db
+- Generation Time: May 27, 2021 at 10:18 AM
+- Server version: 5.7.33
+- PHP Version: 7.4.15
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="spendllyadmin_api" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="countries">
+                CREATE TABLE `countries` (
+                  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+                  `iso` varchar(2) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `nicename` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `iso3` varchar(3) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+                  `created_at` timestamp NULL DEFAULT NULL,
+                  `updated_at` timestamp NULL DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=240 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'spendllyadmin_api'
+    -->
+    <database name="spendllyadmin_api">
+        <!-- Table countries -->
+        <table name="countries">
+            <column name="iso">AF</column>
+            <column name="name">AFGHANISTAN</column>
+            <column name="nicename">Afghanistan</column>
+            <column name="iso3">AFG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AL</column>
+            <column name="name">ALBANIA</column>
+            <column name="nicename">Albania</column>
+            <column name="iso3">ALB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DZ</column>
+            <column name="name">ALGERIA</column>
+            <column name="nicename">Algeria</column>
+            <column name="iso3">DZA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AS</column>
+            <column name="name">AMERICAN SAMOA</column>
+            <column name="nicename">American Samoa</column>
+            <column name="iso3">ASM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AD</column>
+            <column name="name">ANDORRA</column>
+            <column name="nicename">Andorra</column>
+            <column name="iso3">AND</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AO</column>
+            <column name="name">ANGOLA</column>
+            <column name="nicename">Angola</column>
+            <column name="iso3">AGO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AI</column>
+            <column name="name">ANGUILLA</column>
+            <column name="nicename">Anguilla</column>
+            <column name="iso3">AIA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AQ</column>
+            <column name="name">ANTARCTICA</column>
+            <column name="nicename">Antarctica</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AG</column>
+            <column name="name">ANTIGUA AND BARBUDA</column>
+            <column name="nicename">Antigua and Barbuda</column>
+            <column name="iso3">ATG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AR</column>
+            <column name="name">ARGENTINA</column>
+            <column name="nicename">Argentina</column>
+            <column name="iso3">ARG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AM</column>
+            <column name="name">ARMENIA</column>
+            <column name="nicename">Armenia</column>
+            <column name="iso3">ARM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AW</column>
+            <column name="name">ARUBA</column>
+            <column name="nicename">Aruba</column>
+            <column name="iso3">ABW</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AU</column>
+            <column name="name">AUSTRALIA</column>
+            <column name="nicename">Australia</column>
+            <column name="iso3">AUS</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AT</column>
+            <column name="name">AUSTRIA</column>
+            <column name="nicename">Austria</column>
+            <column name="iso3">AUT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AZ</column>
+            <column name="name">AZERBAIJAN</column>
+            <column name="nicename">Azerbaijan</column>
+            <column name="iso3">AZE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BS</column>
+            <column name="name">BAHAMAS</column>
+            <column name="nicename">Bahamas</column>
+            <column name="iso3">BHS</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BH</column>
+            <column name="name">BAHRAIN</column>
+            <column name="nicename">Bahrain</column>
+            <column name="iso3">BHR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BD</column>
+            <column name="name">BANGLADESH</column>
+            <column name="nicename">Bangladesh</column>
+            <column name="iso3">BGD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BB</column>
+            <column name="name">BARBADOS</column>
+            <column name="nicename">Barbados</column>
+            <column name="iso3">BRB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BY</column>
+            <column name="name">BELARUS</column>
+            <column name="nicename">Belarus</column>
+            <column name="iso3">BLR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BE</column>
+            <column name="name">BELGIUM</column>
+            <column name="nicename">Belgium</column>
+            <column name="iso3">BEL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BZ</column>
+            <column name="name">BELIZE</column>
+            <column name="nicename">Belize</column>
+            <column name="iso3">BLZ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BJ</column>
+            <column name="name">BENIN</column>
+            <column name="nicename">Benin</column>
+            <column name="iso3">BEN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BM</column>
+            <column name="name">BERMUDA</column>
+            <column name="nicename">Bermuda</column>
+            <column name="iso3">BMU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BT</column>
+            <column name="name">BHUTAN</column>
+            <column name="nicename">Bhutan</column>
+            <column name="iso3">BTN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BO</column>
+            <column name="name">BOLIVIA</column>
+            <column name="nicename">Bolivia</column>
+            <column name="iso3">BOL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BA</column>
+            <column name="name">BOSNIA AND HERZEGOVINA</column>
+            <column name="nicename">Bosnia and Herzegovina</column>
+            <column name="iso3">BIH</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BW</column>
+            <column name="name">BOTSWANA</column>
+            <column name="nicename">Botswana</column>
+            <column name="iso3">BWA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BV</column>
+            <column name="name">BOUVET ISLAND</column>
+            <column name="nicename">Bouvet Island</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BR</column>
+            <column name="name">BRAZIL</column>
+            <column name="nicename">Brazil</column>
+            <column name="iso3">BRA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IO</column>
+            <column name="name">BRITISH INDIAN OCEAN TERRITORY</column>
+            <column name="nicename">British Indian Ocean Territory</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BN</column>
+            <column name="name">BRUNEI DARUSSALAM</column>
+            <column name="nicename">Brunei Darussalam</column>
+            <column name="iso3">BRN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BG</column>
+            <column name="name">BULGARIA</column>
+            <column name="nicename">Bulgaria</column>
+            <column name="iso3">BGR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BF</column>
+            <column name="name">BURKINA FASO</column>
+            <column name="nicename">Burkina Faso</column>
+            <column name="iso3">BFA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">BI</column>
+            <column name="name">BURUNDI</column>
+            <column name="nicename">Burundi</column>
+            <column name="iso3">BDI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KH</column>
+            <column name="name">CAMBODIA</column>
+            <column name="nicename">Cambodia</column>
+            <column name="iso3">KHM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CM</column>
+            <column name="name">CAMEROON</column>
+            <column name="nicename">Cameroon</column>
+            <column name="iso3">CMR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CA</column>
+            <column name="name">CANADA</column>
+            <column name="nicename">Canada</column>
+            <column name="iso3">CAN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CV</column>
+            <column name="name">CAPE VERDE</column>
+            <column name="nicename">Cape Verde</column>
+            <column name="iso3">CPV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KY</column>
+            <column name="name">CAYMAN ISLANDS</column>
+            <column name="nicename">Cayman Islands</column>
+            <column name="iso3">CYM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CF</column>
+            <column name="name">CENTRAL AFRICAN REPUBLIC</column>
+            <column name="nicename">Central African Republic</column>
+            <column name="iso3">CAF</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TD</column>
+            <column name="name">CHAD</column>
+            <column name="nicename">Chad</column>
+            <column name="iso3">TCD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CL</column>
+            <column name="name">CHILE</column>
+            <column name="nicename">Chile</column>
+            <column name="iso3">CHL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CN</column>
+            <column name="name">CHINA</column>
+            <column name="nicename">China</column>
+            <column name="iso3">CHN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CX</column>
+            <column name="name">CHRISTMAS ISLAND</column>
+            <column name="nicename">Christmas Island</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CC</column>
+            <column name="name">COCOS (KEELING) ISLANDS</column>
+            <column name="nicename">Cocos (Keeling) Islands</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CO</column>
+            <column name="name">COLOMBIA</column>
+            <column name="nicename">Colombia</column>
+            <column name="iso3">COL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KM</column>
+            <column name="name">COMOROS</column>
+            <column name="nicename">Comoros</column>
+            <column name="iso3">COM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CG</column>
+            <column name="name">CONGO</column>
+            <column name="nicename">Congo</column>
+            <column name="iso3">COG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CD</column>
+            <column name="name">CONGO, THE DEMOCRATIC REPUBLIC OF THE</column>
+            <column name="nicename">Congo, the Democratic Republic of the</column>
+            <column name="iso3">COD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CK</column>
+            <column name="name">COOK ISLANDS</column>
+            <column name="nicename">Cook Islands</column>
+            <column name="iso3">COK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CR</column>
+            <column name="name">COSTA RICA</column>
+            <column name="nicename">Costa Rica</column>
+            <column name="iso3">CRI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CI</column>
+            <column name="name">COTE D'IVOIRE</column>
+            <column name="nicename">Cote D'Ivoire</column>
+            <column name="iso3">CIV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HR</column>
+            <column name="name">CROATIA</column>
+            <column name="nicename">Croatia</column>
+            <column name="iso3">HRV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CU</column>
+            <column name="name">CUBA</column>
+            <column name="nicename">Cuba</column>
+            <column name="iso3">CUB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CY</column>
+            <column name="name">CYPRUS</column>
+            <column name="nicename">Cyprus</column>
+            <column name="iso3">CYP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CZ</column>
+            <column name="name">CZECH REPUBLIC</column>
+            <column name="nicename">Czech Republic</column>
+            <column name="iso3">CZE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DK</column>
+            <column name="name">DENMARK</column>
+            <column name="nicename">Denmark</column>
+            <column name="iso3">DNK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DJ</column>
+            <column name="name">DJIBOUTI</column>
+            <column name="nicename">Djibouti</column>
+            <column name="iso3">DJI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DM</column>
+            <column name="name">DOMINICA</column>
+            <column name="nicename">Dominica</column>
+            <column name="iso3">DMA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DO</column>
+            <column name="name">DOMINICAN REPUBLIC</column>
+            <column name="nicename">Dominican Republic</column>
+            <column name="iso3">DOM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">EC</column>
+            <column name="name">ECUADOR</column>
+            <column name="nicename">Ecuador</column>
+            <column name="iso3">ECU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">EG</column>
+            <column name="name">EGYPT</column>
+            <column name="nicename">Egypt</column>
+            <column name="iso3">EGY</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SV</column>
+            <column name="name">EL SALVADOR</column>
+            <column name="nicename">El Salvador</column>
+            <column name="iso3">SLV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GQ</column>
+            <column name="name">EQUATORIAL GUINEA</column>
+            <column name="nicename">Equatorial Guinea</column>
+            <column name="iso3">GNQ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ER</column>
+            <column name="name">ERITREA</column>
+            <column name="nicename">Eritrea</column>
+            <column name="iso3">ERI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">EE</column>
+            <column name="name">ESTONIA</column>
+            <column name="nicename">Estonia</column>
+            <column name="iso3">EST</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ET</column>
+            <column name="name">ETHIOPIA</column>
+            <column name="nicename">Ethiopia</column>
+            <column name="iso3">ETH</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FK</column>
+            <column name="name">FALKLAND ISLANDS (MALVINAS)</column>
+            <column name="nicename">Falkland Islands (Malvinas)</column>
+            <column name="iso3">FLK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FO</column>
+            <column name="name">FAROE ISLANDS</column>
+            <column name="nicename">Faroe Islands</column>
+            <column name="iso3">FRO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FJ</column>
+            <column name="name">FIJI</column>
+            <column name="nicename">Fiji</column>
+            <column name="iso3">FJI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FI</column>
+            <column name="name">FINLAND</column>
+            <column name="nicename">Finland</column>
+            <column name="iso3">FIN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FR</column>
+            <column name="name">FRANCE</column>
+            <column name="nicename">France</column>
+            <column name="iso3">FRA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GF</column>
+            <column name="name">FRENCH GUIANA</column>
+            <column name="nicename">French Guiana</column>
+            <column name="iso3">GUF</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PF</column>
+            <column name="name">FRENCH POLYNESIA</column>
+            <column name="nicename">French Polynesia</column>
+            <column name="iso3">PYF</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TF</column>
+            <column name="name">FRENCH SOUTHERN TERRITORIES</column>
+            <column name="nicename">French Southern Territories</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GA</column>
+            <column name="name">GABON</column>
+            <column name="nicename">Gabon</column>
+            <column name="iso3">GAB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GM</column>
+            <column name="name">GAMBIA</column>
+            <column name="nicename">Gambia</column>
+            <column name="iso3">GMB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GE</column>
+            <column name="name">GEORGIA</column>
+            <column name="nicename">Georgia</column>
+            <column name="iso3">GEO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">DE</column>
+            <column name="name">GERMANY</column>
+            <column name="nicename">Germany</column>
+            <column name="iso3">DEU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GH</column>
+            <column name="name">GHANA</column>
+            <column name="nicename">Ghana</column>
+            <column name="iso3">GHA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GI</column>
+            <column name="name">GIBRALTAR</column>
+            <column name="nicename">Gibraltar</column>
+            <column name="iso3">GIB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GR</column>
+            <column name="name">GREECE</column>
+            <column name="nicename">Greece</column>
+            <column name="iso3">GRC</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GL</column>
+            <column name="name">GREENLAND</column>
+            <column name="nicename">Greenland</column>
+            <column name="iso3">GRL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GD</column>
+            <column name="name">GRENADA</column>
+            <column name="nicename">Grenada</column>
+            <column name="iso3">GRD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GP</column>
+            <column name="name">GUADELOUPE</column>
+            <column name="nicename">Guadeloupe</column>
+            <column name="iso3">GLP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GU</column>
+            <column name="name">GUAM</column>
+            <column name="nicename">Guam</column>
+            <column name="iso3">GUM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GT</column>
+            <column name="name">GUATEMALA</column>
+            <column name="nicename">Guatemala</column>
+            <column name="iso3">GTM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GN</column>
+            <column name="name">GUINEA</column>
+            <column name="nicename">Guinea</column>
+            <column name="iso3">GIN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GW</column>
+            <column name="name">GUINEA-BISSAU</column>
+            <column name="nicename">Guinea-Bissau</column>
+            <column name="iso3">GNB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GY</column>
+            <column name="name">GUYANA</column>
+            <column name="nicename">Guyana</column>
+            <column name="iso3">GUY</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HT</column>
+            <column name="name">HAITI</column>
+            <column name="nicename">Haiti</column>
+            <column name="iso3">HTI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HM</column>
+            <column name="name">HEARD ISLAND AND MCDONALD ISLANDS</column>
+            <column name="nicename">Heard Island and Mcdonald Islands</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VA</column>
+            <column name="name">HOLY SEE (VATICAN CITY STATE)</column>
+            <column name="nicename">Holy See (Vatican City State)</column>
+            <column name="iso3">VAT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HN</column>
+            <column name="name">HONDURAS</column>
+            <column name="nicename">Honduras</column>
+            <column name="iso3">HND</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HK</column>
+            <column name="name">HONG KONG</column>
+            <column name="nicename">Hong Kong</column>
+            <column name="iso3">HKG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">HU</column>
+            <column name="name">HUNGARY</column>
+            <column name="nicename">Hungary</column>
+            <column name="iso3">HUN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IS</column>
+            <column name="name">ICELAND</column>
+            <column name="nicename">Iceland</column>
+            <column name="iso3">ISL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IN</column>
+            <column name="name">INDIA</column>
+            <column name="nicename">India</column>
+            <column name="iso3">IND</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ID</column>
+            <column name="name">INDONESIA</column>
+            <column name="nicename">Indonesia</column>
+            <column name="iso3">IDN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IR</column>
+            <column name="name">IRAN, ISLAMIC REPUBLIC OF</column>
+            <column name="nicename">Iran, Islamic Republic of</column>
+            <column name="iso3">IRN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IQ</column>
+            <column name="name">IRAQ</column>
+            <column name="nicename">Iraq</column>
+            <column name="iso3">IRQ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IE</column>
+            <column name="name">IRELAND</column>
+            <column name="nicename">Ireland</column>
+            <column name="iso3">IRL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IL</column>
+            <column name="name">ISRAEL</column>
+            <column name="nicename">Israel</column>
+            <column name="iso3">ISR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">IT</column>
+            <column name="name">ITALY</column>
+            <column name="nicename">Italy</column>
+            <column name="iso3">ITA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">JM</column>
+            <column name="name">JAMAICA</column>
+            <column name="nicename">Jamaica</column>
+            <column name="iso3">JAM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">JP</column>
+            <column name="name">JAPAN</column>
+            <column name="nicename">Japan</column>
+            <column name="iso3">JPN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">JO</column>
+            <column name="name">JORDAN</column>
+            <column name="nicename">Jordan</column>
+            <column name="iso3">JOR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KZ</column>
+            <column name="name">KAZAKHSTAN</column>
+            <column name="nicename">Kazakhstan</column>
+            <column name="iso3">KAZ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KE</column>
+            <column name="name">KENYA</column>
+            <column name="nicename">Kenya</column>
+            <column name="iso3">KEN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KI</column>
+            <column name="name">KIRIBATI</column>
+            <column name="nicename">Kiribati</column>
+            <column name="iso3">KIR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KP</column>
+            <column name="name">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</column>
+            <column name="nicename">Korea, Democratic People's Republic of</column>
+            <column name="iso3">PRK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KR</column>
+            <column name="name">KOREA, REPUBLIC OF</column>
+            <column name="nicename">Korea, Republic of</column>
+            <column name="iso3">KOR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KW</column>
+            <column name="name">KUWAIT</column>
+            <column name="nicename">Kuwait</column>
+            <column name="iso3">KWT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KG</column>
+            <column name="name">KYRGYZSTAN</column>
+            <column name="nicename">Kyrgyzstan</column>
+            <column name="iso3">KGZ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LA</column>
+            <column name="name">LAO PEOPLE'S DEMOCRATIC REPUBLIC</column>
+            <column name="nicename">Lao People's Democratic Republic</column>
+            <column name="iso3">LAO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LV</column>
+            <column name="name">LATVIA</column>
+            <column name="nicename">Latvia</column>
+            <column name="iso3">LVA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LB</column>
+            <column name="name">LEBANON</column>
+            <column name="nicename">Lebanon</column>
+            <column name="iso3">LBN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LS</column>
+            <column name="name">LESOTHO</column>
+            <column name="nicename">Lesotho</column>
+            <column name="iso3">LSO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LR</column>
+            <column name="name">LIBERIA</column>
+            <column name="nicename">Liberia</column>
+            <column name="iso3">LBR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LY</column>
+            <column name="name">LIBYAN ARAB JAMAHIRIYA</column>
+            <column name="nicename">Libyan Arab Jamahiriya</column>
+            <column name="iso3">LBY</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LI</column>
+            <column name="name">LIECHTENSTEIN</column>
+            <column name="nicename">Liechtenstein</column>
+            <column name="iso3">LIE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LT</column>
+            <column name="name">LITHUANIA</column>
+            <column name="nicename">Lithuania</column>
+            <column name="iso3">LTU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LU</column>
+            <column name="name">LUXEMBOURG</column>
+            <column name="nicename">Luxembourg</column>
+            <column name="iso3">LUX</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MO</column>
+            <column name="name">MACAO</column>
+            <column name="nicename">Macao</column>
+            <column name="iso3">MAC</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MK</column>
+            <column name="name">MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</column>
+            <column name="nicename">Macedonia, the Former Yugoslav Republic of</column>
+            <column name="iso3">MKD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MG</column>
+            <column name="name">MADAGASCAR</column>
+            <column name="nicename">Madagascar</column>
+            <column name="iso3">MDG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MW</column>
+            <column name="name">MALAWI</column>
+            <column name="nicename">Malawi</column>
+            <column name="iso3">MWI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MY</column>
+            <column name="name">MALAYSIA</column>
+            <column name="nicename">Malaysia</column>
+            <column name="iso3">MYS</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MV</column>
+            <column name="name">MALDIVES</column>
+            <column name="nicename">Maldives</column>
+            <column name="iso3">MDV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ML</column>
+            <column name="name">MALI</column>
+            <column name="nicename">Mali</column>
+            <column name="iso3">MLI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MT</column>
+            <column name="name">MALTA</column>
+            <column name="nicename">Malta</column>
+            <column name="iso3">MLT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MH</column>
+            <column name="name">MARSHALL ISLANDS</column>
+            <column name="nicename">Marshall Islands</column>
+            <column name="iso3">MHL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MQ</column>
+            <column name="name">MARTINIQUE</column>
+            <column name="nicename">Martinique</column>
+            <column name="iso3">MTQ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MR</column>
+            <column name="name">MAURITANIA</column>
+            <column name="nicename">Mauritania</column>
+            <column name="iso3">MRT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MU</column>
+            <column name="name">MAURITIUS</column>
+            <column name="nicename">Mauritius</column>
+            <column name="iso3">MUS</column>
+        </table>
+        <table name="countries">
+            <column name="iso">YT</column>
+            <column name="name">MAYOTTE</column>
+            <column name="nicename">Mayotte</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MX</column>
+            <column name="name">MEXICO</column>
+            <column name="nicename">Mexico</column>
+            <column name="iso3">MEX</column>
+        </table>
+        <table name="countries">
+            <column name="iso">FM</column>
+            <column name="name">MICRONESIA, FEDERATED STATES OF</column>
+            <column name="nicename">Micronesia, Federated States of</column>
+            <column name="iso3">FSM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MD</column>
+            <column name="name">MOLDOVA, REPUBLIC OF</column>
+            <column name="nicename">Moldova, Republic of</column>
+            <column name="iso3">MDA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MC</column>
+            <column name="name">MONACO</column>
+            <column name="nicename">Monaco</column>
+            <column name="iso3">MCO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MN</column>
+            <column name="name">MONGOLIA</column>
+            <column name="nicename">Mongolia</column>
+            <column name="iso3">MNG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MS</column>
+            <column name="name">MONTSERRAT</column>
+            <column name="nicename">Montserrat</column>
+            <column name="iso3">MSR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MA</column>
+            <column name="name">MOROCCO</column>
+            <column name="nicename">Morocco</column>
+            <column name="iso3">MAR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MZ</column>
+            <column name="name">MOZAMBIQUE</column>
+            <column name="nicename">Mozambique</column>
+            <column name="iso3">MOZ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MM</column>
+            <column name="name">MYANMAR</column>
+            <column name="nicename">Myanmar</column>
+            <column name="iso3">MMR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NA</column>
+            <column name="name">NAMIBIA</column>
+            <column name="nicename">Namibia</column>
+            <column name="iso3">NAM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NR</column>
+            <column name="name">NAURU</column>
+            <column name="nicename">Nauru</column>
+            <column name="iso3">NRU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NP</column>
+            <column name="name">NEPAL</column>
+            <column name="nicename">Nepal</column>
+            <column name="iso3">NPL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NL</column>
+            <column name="name">NETHERLANDS</column>
+            <column name="nicename">Netherlands</column>
+            <column name="iso3">NLD</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AN</column>
+            <column name="name">NETHERLANDS ANTILLES</column>
+            <column name="nicename">Netherlands Antilles</column>
+            <column name="iso3">ANT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NC</column>
+            <column name="name">NEW CALEDONIA</column>
+            <column name="nicename">New Caledonia</column>
+            <column name="iso3">NCL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NZ</column>
+            <column name="name">NEW ZEALAND</column>
+            <column name="nicename">New Zealand</column>
+            <column name="iso3">NZL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NI</column>
+            <column name="name">NICARAGUA</column>
+            <column name="nicename">Nicaragua</column>
+            <column name="iso3">NIC</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NE</column>
+            <column name="name">NIGER</column>
+            <column name="nicename">Niger</column>
+            <column name="iso3">NER</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NG</column>
+            <column name="name">NIGERIA</column>
+            <column name="nicename">Nigeria</column>
+            <column name="iso3">NGA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NU</column>
+            <column name="name">NIUE</column>
+            <column name="nicename">Niue</column>
+            <column name="iso3">NIU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NF</column>
+            <column name="name">NORFOLK ISLAND</column>
+            <column name="nicename">Norfolk Island</column>
+            <column name="iso3">NFK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">MP</column>
+            <column name="name">NORTHERN MARIANA ISLANDS</column>
+            <column name="nicename">Northern Mariana Islands</column>
+            <column name="iso3">MNP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">NO</column>
+            <column name="name">NORWAY</column>
+            <column name="nicename">Norway</column>
+            <column name="iso3">NOR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">OM</column>
+            <column name="name">OMAN</column>
+            <column name="nicename">Oman</column>
+            <column name="iso3">OMN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PK</column>
+            <column name="name">PAKISTAN</column>
+            <column name="nicename">Pakistan</column>
+            <column name="iso3">PAK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PW</column>
+            <column name="name">PALAU</column>
+            <column name="nicename">Palau</column>
+            <column name="iso3">PLW</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PS</column>
+            <column name="name">PALESTINIAN TERRITORY, OCCUPIED</column>
+            <column name="nicename">Palestinian Territory, Occupied</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PA</column>
+            <column name="name">PANAMA</column>
+            <column name="nicename">Panama</column>
+            <column name="iso3">PAN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PG</column>
+            <column name="name">PAPUA NEW GUINEA</column>
+            <column name="nicename">Papua New Guinea</column>
+            <column name="iso3">PNG</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PY</column>
+            <column name="name">PARAGUAY</column>
+            <column name="nicename">Paraguay</column>
+            <column name="iso3">PRY</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PE</column>
+            <column name="name">PERU</column>
+            <column name="nicename">Peru</column>
+            <column name="iso3">PER</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PH</column>
+            <column name="name">PHILIPPINES</column>
+            <column name="nicename">Philippines</column>
+            <column name="iso3">PHL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PN</column>
+            <column name="name">PITCAIRN</column>
+            <column name="nicename">Pitcairn</column>
+            <column name="iso3">PCN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PL</column>
+            <column name="name">POLAND</column>
+            <column name="nicename">Poland</column>
+            <column name="iso3">POL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PT</column>
+            <column name="name">PORTUGAL</column>
+            <column name="nicename">Portugal</column>
+            <column name="iso3">PRT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PR</column>
+            <column name="name">PUERTO RICO</column>
+            <column name="nicename">Puerto Rico</column>
+            <column name="iso3">PRI</column>
+        </table>
+        <table name="countries">
+            <column name="iso">QA</column>
+            <column name="name">QATAR</column>
+            <column name="nicename">Qatar</column>
+            <column name="iso3">QAT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">RE</column>
+            <column name="name">REUNION</column>
+            <column name="nicename">Reunion</column>
+            <column name="iso3">REU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">RO</column>
+            <column name="name">ROMANIA</column>
+            <column name="nicename">Romania</column>
+            <column name="iso3">ROM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">RU</column>
+            <column name="name">RUSSIAN FEDERATION</column>
+            <column name="nicename">Russian Federation</column>
+            <column name="iso3">RUS</column>
+        </table>
+        <table name="countries">
+            <column name="iso">RW</column>
+            <column name="name">RWANDA</column>
+            <column name="nicename">Rwanda</column>
+            <column name="iso3">RWA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SH</column>
+            <column name="name">SAINT HELENA</column>
+            <column name="nicename">Saint Helena</column>
+            <column name="iso3">SHN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">KN</column>
+            <column name="name">SAINT KITTS AND NEVIS</column>
+            <column name="nicename">Saint Kitts and Nevis</column>
+            <column name="iso3">KNA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LC</column>
+            <column name="name">SAINT LUCIA</column>
+            <column name="nicename">Saint Lucia</column>
+            <column name="iso3">LCA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">PM</column>
+            <column name="name">SAINT PIERRE AND MIQUELON</column>
+            <column name="nicename">Saint Pierre and Miquelon</column>
+            <column name="iso3">SPM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VC</column>
+            <column name="name">SAINT VINCENT AND THE GRENADINES</column>
+            <column name="nicename">Saint Vincent and the Grenadines</column>
+            <column name="iso3">VCT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">WS</column>
+            <column name="name">SAMOA</column>
+            <column name="nicename">Samoa</column>
+            <column name="iso3">WSM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SM</column>
+            <column name="name">SAN MARINO</column>
+            <column name="nicename">San Marino</column>
+            <column name="iso3">SMR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ST</column>
+            <column name="name">SAO TOME AND PRINCIPE</column>
+            <column name="nicename">Sao Tome and Principe</column>
+            <column name="iso3">STP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SA</column>
+            <column name="name">SAUDI ARABIA</column>
+            <column name="nicename">Saudi Arabia</column>
+            <column name="iso3">SAU</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SN</column>
+            <column name="name">SENEGAL</column>
+            <column name="nicename">Senegal</column>
+            <column name="iso3">SEN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CS</column>
+            <column name="name">SERBIA AND MONTENEGRO</column>
+            <column name="nicename">Serbia and Montenegro</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SC</column>
+            <column name="name">SEYCHELLES</column>
+            <column name="nicename">Seychelles</column>
+            <column name="iso3">SYC</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SL</column>
+            <column name="name">SIERRA LEONE</column>
+            <column name="nicename">Sierra Leone</column>
+            <column name="iso3">SLE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SG</column>
+            <column name="name">SINGAPORE</column>
+            <column name="nicename">Singapore</column>
+            <column name="iso3">SGP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SK</column>
+            <column name="name">SLOVAKIA</column>
+            <column name="nicename">Slovakia</column>
+            <column name="iso3">SVK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SI</column>
+            <column name="name">SLOVENIA</column>
+            <column name="nicename">Slovenia</column>
+            <column name="iso3">SVN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SB</column>
+            <column name="name">SOLOMON ISLANDS</column>
+            <column name="nicename">Solomon Islands</column>
+            <column name="iso3">SLB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SO</column>
+            <column name="name">SOMALIA</column>
+            <column name="nicename">Somalia</column>
+            <column name="iso3">SOM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ZA</column>
+            <column name="name">SOUTH AFRICA</column>
+            <column name="nicename">South Africa</column>
+            <column name="iso3">ZAF</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GS</column>
+            <column name="name">SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</column>
+            <column name="nicename">South Georgia and the South Sandwich Islands</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ES</column>
+            <column name="name">SPAIN</column>
+            <column name="nicename">Spain</column>
+            <column name="iso3">ESP</column>
+        </table>
+        <table name="countries">
+            <column name="iso">LK</column>
+            <column name="name">SRI LANKA</column>
+            <column name="nicename">Sri Lanka</column>
+            <column name="iso3">LKA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SD</column>
+            <column name="name">SUDAN</column>
+            <column name="nicename">Sudan</column>
+            <column name="iso3">SDN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SR</column>
+            <column name="name">SURINAME</column>
+            <column name="nicename">Suriname</column>
+            <column name="iso3">SUR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SJ</column>
+            <column name="name">SVALBARD AND JAN MAYEN</column>
+            <column name="nicename">Svalbard and Jan Mayen</column>
+            <column name="iso3">SJM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SZ</column>
+            <column name="name">SWAZILAND</column>
+            <column name="nicename">Swaziland</column>
+            <column name="iso3">SWZ</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SE</column>
+            <column name="name">SWEDEN</column>
+            <column name="nicename">Sweden</column>
+            <column name="iso3">SWE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">CH</column>
+            <column name="name">SWITZERLAND</column>
+            <column name="nicename">Switzerland</column>
+            <column name="iso3">CHE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">SY</column>
+            <column name="name">SYRIAN ARAB REPUBLIC</column>
+            <column name="nicename">Syrian Arab Republic</column>
+            <column name="iso3">SYR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TW</column>
+            <column name="name">TAIWAN, PROVINCE OF CHINA</column>
+            <column name="nicename">Taiwan, Province of China</column>
+            <column name="iso3">TWN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TJ</column>
+            <column name="name">TAJIKISTAN</column>
+            <column name="nicename">Tajikistan</column>
+            <column name="iso3">TJK</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TZ</column>
+            <column name="name">TANZANIA, UNITED REPUBLIC OF</column>
+            <column name="nicename">Tanzania, United Republic of</column>
+            <column name="iso3">TZA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TH</column>
+            <column name="name">THAILAND</column>
+            <column name="nicename">Thailand</column>
+            <column name="iso3">THA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TL</column>
+            <column name="name">TIMOR-LESTE</column>
+            <column name="nicename">Timor-Leste</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TG</column>
+            <column name="name">TOGO</column>
+            <column name="nicename">Togo</column>
+            <column name="iso3">TGO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TK</column>
+            <column name="name">TOKELAU</column>
+            <column name="nicename">Tokelau</column>
+            <column name="iso3">TKL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TO</column>
+            <column name="name">TONGA</column>
+            <column name="nicename">Tonga</column>
+            <column name="iso3">TON</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TT</column>
+            <column name="name">TRINIDAD AND TOBAGO</column>
+            <column name="nicename">Trinidad and Tobago</column>
+            <column name="iso3">TTO</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TN</column>
+            <column name="name">TUNISIA</column>
+            <column name="nicename">Tunisia</column>
+            <column name="iso3">TUN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TR</column>
+            <column name="name">TURKEY</column>
+            <column name="nicename">Turkey</column>
+            <column name="iso3">TUR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TM</column>
+            <column name="name">TURKMENISTAN</column>
+            <column name="nicename">Turkmenistan</column>
+            <column name="iso3">TKM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TC</column>
+            <column name="name">TURKS AND CAICOS ISLANDS</column>
+            <column name="nicename">Turks and Caicos Islands</column>
+            <column name="iso3">TCA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">TV</column>
+            <column name="name">TUVALU</column>
+            <column name="nicename">Tuvalu</column>
+            <column name="iso3">TUV</column>
+        </table>
+        <table name="countries">
+            <column name="iso">UG</column>
+            <column name="name">UGANDA</column>
+            <column name="nicename">Uganda</column>
+            <column name="iso3">UGA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">UA</column>
+            <column name="name">UKRAINE</column>
+            <column name="nicename">Ukraine</column>
+            <column name="iso3">UKR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">AE</column>
+            <column name="name">UNITED ARAB EMIRATES</column>
+            <column name="nicename">United Arab Emirates</column>
+            <column name="iso3">ARE</column>
+        </table>
+        <table name="countries">
+            <column name="iso">GB</column>
+            <column name="name">UNITED KINGDOM</column>
+            <column name="nicename">United Kingdom</column>
+            <column name="iso3">GBR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">US</column>
+            <column name="name">UNITED STATES</column>
+            <column name="nicename">United States</column>
+            <column name="iso3">USA</column>
+        </table>
+        <table name="countries">
+            <column name="iso">UM</column>
+            <column name="name">UNITED STATES MINOR OUTLYING ISLANDS</column>
+            <column name="nicename">United States Minor Outlying Islands</column>
+            <column name="iso3">NULL</column>
+        </table>
+        <table name="countries">
+            <column name="iso">UY</column>
+            <column name="name">URUGUAY</column>
+            <column name="nicename">Uruguay</column>
+            <column name="iso3">URY</column>
+        </table>
+        <table name="countries">
+            <column name="iso">UZ</column>
+            <column name="name">UZBEKISTAN</column>
+            <column name="nicename">Uzbekistan</column>
+            <column name="iso3">UZB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VU</column>
+            <column name="name">VANUATU</column>
+            <column name="nicename">Vanuatu</column>
+            <column name="iso3">VUT</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VE</column>
+            <column name="name">VENEZUELA</column>
+            <column name="nicename">Venezuela</column>
+            <column name="iso3">VEN</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VN</column>
+            <column name="name">VIET NAM</column>
+            <column name="nicename">Viet Nam</column>
+            <column name="iso3">VNM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VG</column>
+            <column name="name">VIRGIN ISLANDS, BRITISH</column>
+            <column name="nicename">Virgin Islands, British</column>
+            <column name="iso3">VGB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">VI</column>
+            <column name="name">VIRGIN ISLANDS, U.S.</column>
+            <column name="nicename">Virgin Islands, U.s.</column>
+            <column name="iso3">VIR</column>
+        </table>
+        <table name="countries">
+            <column name="iso">WF</column>
+            <column name="name">WALLIS AND FUTUNA</column>
+            <column name="nicename">Wallis and Futuna</column>
+            <column name="iso3">WLF</column>
+        </table>
+        <table name="countries">
+            <column name="iso">EH</column>
+            <column name="name">WESTERN SAHARA</column>
+            <column name="nicename">Western Sahara</column>
+            <column name="iso3">ESH</column>
+        </table>
+        <table name="countries">
+            <column name="iso">YE</column>
+            <column name="name">YEMEN</column>
+            <column name="nicename">Yemen</column>
+            <column name="iso3">YEM</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ZM</column>
+            <column name="name">ZAMBIA</column>
+            <column name="nicename">Zambia</column>
+            <column name="iso3">ZMB</column>
+        </table>
+        <table name="countries">
+            <column name="iso">ZW</column>
+            <column name="name">ZIMBABWE</column>
+            <column name="nicename">Zimbabwe</column>
+            <column name="iso3">ZWE</column>
+        </table>
+    </database>
+</pma_xml_export>
